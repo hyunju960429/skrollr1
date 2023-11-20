@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Playpen Sans', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 500;
+}
+.fixed-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.slider-content {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.slide h2 {
+    font-size: 40px;
+}
+
+/* 1막 */
+#slide02 {
+    top: 300px;
+}
+
+.corn {
+    top: 550px;
+    left: auto;
+    right: -300px;
+}
+.ice1 {
+    top: 410px;
+    left: auto;
+    right: -290px;
+}
+.ice2 {
+    top: 320px;
+    left: auto;
+    right: -300px;
+}
+.ice3 {
+    top: 230px;
+    left: auto;
+    right: -290px;
+}
+.ice4 {
+    top: 230px;
+    left: auto;
+    right: -280px;
+}
+.answer {
+    top: 100px;
+    left: auto;
+    right: -580px;
+}
+.coin {
+    top:auto;
+    bottom: -180px;
+    scale: 0.8;
+}
+
+/* 5막 */
+.corn2 {
+    top: 430px;
+    left: auto;
+    right: -500px;
+}
+.ice01 {
+    top: 350px;
+    left: auto;
+    right: -490px;
+}
+.ice02 {
+    top: 250px;
+    left: auto;
+    right: -480px;
+}
+.ice03 {
+    top: 150px;
+    left: auto;
+    right: -500px;
+}
+.answer2 {
+    top: 200px;
+    left: -180px;
+}
